@@ -22,7 +22,7 @@ The analysis is based on the following CSV datasets:
    - User-IDs of users who visited the search page.
 
 4. **`payment_page_table.csv`**  
-   - User-IDs of users who visited the post-payment page.
+   - User-IDs of users who visited the payment page.
 
 5. **`payment_confirmation_table.csv`**  
    - User-IDs of users who successfully completed payment and received confirmation.
@@ -73,8 +73,7 @@ Data was merged and segmented, with results visualized using **funnel and pie ch
 
 #### **Key Insights**:
 1. **Mobile Dominance**:  
-   - Mobile users account for **66.8%** of conversions.  
-   - Mobile **female users** lead with **36.9%**.  
+   - Mobile users account for **66.8%** of conversions.    
 
 2. **Desktop Lagging**:  
    - Desktop users contribute only **33.2%**, signaling optimization opportunities.  
@@ -96,7 +95,7 @@ Data was merged and segmented, with results visualized using **funnel and pie ch
 
 ### **5. Time Series Analysis**
 Using **Plotly line graphs**, we analyzed daily conversion rates and identified:  
-- A **major drop** in conversion rates from the **home page to search page** on **mobile devices**, decreasing from **0.8** to **0.2** over time.  
+- A **major drop** in conversion rates from the **home page to search page** on **mobile devices**, decreasing from **0.8** to **0.2** on 1st March in the data.  
 
 #### **Recommendations**:
 - Investigate causes for mobile-specific drop-offs.  
